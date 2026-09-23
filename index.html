@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jeep Batur Horizon | Mount Batur Jeep Adventure Bali</title>
+<meta name="description" content="Explore Mount Batur with Jeep Batur Horizon. Experience sunrise, black lava, black sand and unforgettable Jeep adventure in Kintamani, Bali.">
+<meta name="keywords" content="Mount Batur Jeep Tour, Kintamani Jeep, Bali Jeep Adventure, Sunrise Jeep Batur, Batur Black Lava Tour">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Jeep Batur Horizon | Mount Batur Jeep Adventure Bali">
+<meta property="og:description" content="Explore Mount Batur with Jeep Batur Horizon. Experience sunrise, black lava, black sand and unforgettable Jeep adventure in Kintamani, Bali.">
+<meta property="og:image" content="https://images.unsplash.com/photo-1601581875039-e899893d520c?q=80&w=1200&auto=format&fit=crop">
+
+<!-- REPLACE THIS IMAGE: favicon placeholder -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏔️</text></svg>">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          jblack: '#111111',
+          jdark: '#1F1F1F',
+          jgrey: '#6B7280',
+          jlight: '#F3F4F6',
+          jwhite: '#FFFFFF'
+        },
+        fontFamily: {
+          display: ['Manrope', 'sans-serif'],
+          body: ['Inter', 'sans-serif']
+        },
+        letterSpacing: {
+          tightest: '-0.04em'
+        }
+      }
+    }
+  }
+</script>
+
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', sans-serif; background:#FFFFFF; color:#111111; overflow-x:hidden; }
+  h1,h2,h3,h4, .font-display { font-family: 'Manrope', sans-serif; }
+
+  ::selection { background:#111111; color:#FFFFFF; }
+
+  /* Navbar */
+  #navbar { transition: background-color .4s ease, box-shadow .4s ease, padding .4s ease; }
+  #navbar.scrolled { background-color: rgba(255,255,255,0.97); box-shadow: 0 1px 0 rgba(0,0,0,0.06); }
+  #navbar.scrolled .nav-link, #navbar.scrolled .nav-logo { color:#111111; }
+  #navbar:not(.scrolled) .nav-link, #navbar:not(.scrolled) .nav-logo { color:#FFFFFF; }
+  .nav-link { position:relative; }
+  .nav-link::after { content:''; position:absolute; left:0; bottom:-4px; width:0; height:1px; background:currentColor; transition:width .3s ease; }
+  .nav-link:hover::after { width:100%; }
+
+  /* Mobile menu */
+  #mobileMenu { transform: translateX(100%); transition: transform .45s cubic-bezier(.65,0,.35,1); }
+  #mobileMenu.open { transform: translateX(0); }
+  #mobileOverlay { opacity:0; pointer-events:none; transition: opacity .3s ease; }
+  #mobileOverlay.open { opacity:1; pointer-events:auto; }
+
+  /* Hero */
+  #hero-bg { will-change: transform; }
+
+  /* Reveal on scroll */
+  .reveal { opacity:0; transform: translateY(28px); transition: opacity .8s ease, transform .8s ease; }
+  .reveal.in-view { opacity:1; transform: translateY(0); }
+
+  /* Package card image zoom */
+  .pkg-card .pkg-img { transition: transform .7s cubic-bezier(.16,1,.3,1); }
+  .pkg-card:hover .pkg-img { transform: scale(1.08); }
+  .pkg-card { transition: transform .4s ease, box-shadow .4s ease, border-color .4s ease; }
+  .pkg-card:hover { transform: translateY(-6px); border-color:#111111; }
+
+  /* Modal */
+  .modal-backdrop { background: rgba(17,17,17,0.7); }
+  .modal-panel { transition: opacity .3s ease, transform .3s ease; }
+
+  /* Gallery */
+  .gallery-item img { transition: transform .6s ease; }
+  .gallery-item:hover img { transform: scale(1.06); }
+  .gallery-item { transition: opacity .35s ease, transform .35s ease; }
+  .gallery-hidden { display:none; }
+
+  /* Accordion */
+  .faq-panel { max-height:0; overflow:hidden; transition: max-height .4s ease; }
+
+  /* WhatsApp pulse */
+  @keyframes pulseRing {
+    0% { box-shadow: 0 0 0 0 rgba(17,17,17,0.35); }
+    100% { box-shadow: 0 0 0 16px rgba(17,17,17,0); }
+  }
+  .pulse-btn { animation: pulseRing 2.2s infinite; }
+
+  /* Timeline */
+  .timeline-line { background: linear-gradient(to bottom, #111111, #6B7280); }
+
+  /* Testimonial track */
+  #testimonialTrack { transition: transform .6s cubic-bezier(.65,0,.35,1); }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { animation-duration: 0.001ms !important; transition-duration: 0.001ms !important; }
+  }
+
+  input:focus, select:focus, textarea:focus, button:focus-visible, a:focus-visible {
+    outline: 2px solid #111111; outline-offset: 2px;
+  }
+
+  /* prevent horizontal scroll */
+  .no-scrollbar::-webkit-scrollbar { display:none; }
+</style>
+</head>
+<body class="antialiased">
+
+<!-- ================= NAVBAR ================= -->
+<header id="navbar" class="fixed top-0 left-0 w-full z-40">
+  <nav class="max-w-7xl mx-auto flex items-center justify-between px-6 lg:px-10 py-5">
+    <a href="#home" class="nav-logo font-display font-extrabold tracking-tightest text-lg lg:text-xl">JEEP BATUR HORIZON</a>
+
+    <ul class="hidden lg:flex items-center gap-9 text-sm font-medium tracking-wide">
+      <li><a href="#home" class="nav-link">HOME</a></li>
+      <li><a href="#packages" class="nav-link">PACKAGES</a></li>
+      <li><a href="#experience" class="nav-link">EXPERIENCE</a></li>
+      <li><a href="#gallery" class="nav-link">GALLERY</a></li>
+      <li><a href="#about" class="nav-link">ABOUT</a></li>
+      <li><a href="#faq" class="nav-link">FAQ</a></li>
+      <li><a href="#contact" class="nav-link">CONTACT</a></li>
+    </ul>
+
+    <button id="bookNowNavBtn" class="hidden lg:inline-block bg-jblack text-jwhite text-sm font-semibold tracking-wide px-6 py-3 hover:bg-jdark transition-colors">BOOK NOW</button>
+
+    <button id="hamburgerBtn" aria-label="Open menu" class="lg:hidden nav-link p-2">
+      <i class="fa-solid fa-bars text-xl"></i>
+    </button>
+  </nav>
+</header>
+
+<!-- Mobile menu -->
+<div id="mobileOverlay" class="fixed inset-0 bg-jblack/60 z-40 lg:hidden"></div>
+<div id="mobileMenu" class="fixed top-0 right-0 h-full w-[78%] max-w-xs bg-jwhite z-50 lg:hidden shadow-xl flex flex-col">
+  <div class="flex justify-between items-center px-6 py-6 border-b border-jlight">
+    <span class="font-display font-bold">MENU</span>
+    <button id="closeMobileBtn" aria-label="Close menu" class="p-2"><i class="fa-solid fa-xmark text-xl"></i></button>
+  </div>
+  <ul class="flex flex-col gap-1 px-6 py-6 text-base font-medium">
+    <li><a href="#home" class="mobile-link block py-3 border-b border-jlight">HOME</a></li>
+    <li><a href="#packages" class="mobile-link block py-3 border-b border-jlight">PACKAGES</a></li>
+    <li><a href="#experience" class="mobile-link block py-3 border-b border-jlight">EXPERIENCE</a></li>
+    <li><a href="#gallery" class="mobile-link block py-3 border-b border-jlight">GALLERY</a></li>
+    <li><a href="#about" class="mobile-link block py-3 border-b border-jlight">ABOUT</a></li>
+    <li><a href="#faq" class="mobile-link block py-3 border-b border-jlight">FAQ</a></li>
+    <li><a href="#contact" class="mobile-link block py-3 border-b border-jlight">CONTACT</a></li>
+  </ul>
+  <div class="mt-auto px-6 py-6">
+    <button id="bookNowMobileBtn" class="w-full bg-jblack text-jwhite text-sm font-semibold tracking-wide px-6 py-4">BOOK NOW</button>
+  </div>
+</div>
+
+<!-- ================= HERO ================= -->
+<section id="home" class="relative h-screen min-h-[640px] w-full overflow-hidden flex items-end">
+  <!-- REPLACE THIS IMAGE: hero image, will be swapped with own Mount Batur photography -->
+  <div id="hero-bg" class="absolute inset-0 bg-cover bg-center scale-110" style="background-image:url('https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?q=80&w=1920&auto=format&fit=crop');"></div>
+  <div class="absolute inset-0 bg-gradient-to-b from-jblack/70 via-jblack/50 to-jblack/90"></div>
+
+  <div class="relative z-10 w-full max-w-7xl mx-auto px-6 lg:px-10 pb-40 lg:pb-48 text-jwhite">
+    <span class="inline-block border border-jwhite/40 text-xs tracking-[0.2em] font-medium px-4 py-2 mb-7 reveal">KINTAMANI • BALI</span>
+    <h1 class="font-display font-extrabold text-4xl sm:text-5xl lg:text-7xl leading-[1.05] tracking-tightest max-w-4xl mb-6 reveal">
+      EXPERIENCE MOUNT BATUR<br>BEYOND THE ORDINARY
+    </h1>
+    <p class="text-base sm:text-lg text-jwhite/80 max-w-xl mb-10 reveal">
+      Explore Mount Batur through an unforgettable Jeep adventure in Kintamani, Bali.
+    </p>
+
+    <div class="flex flex-wrap gap-4 mb-14 reveal">
+      <button onclick="document.getElementById('booking-bar').scrollIntoView({behavior:'smooth'})" class="bg-jwhite text-jblack font-semibold text-sm tracking-wide px-7 py-4 hover:bg-jlight transition-colors">BOOK YOUR ADVENTURE</button>
+      <button onclick="document.getElementById('packages').scrollIntoView({behavior:'smooth'})" class="border border-jwhite/50 text-jwhite font-semibold text-sm tracking-wide px-7 py-4 hover:bg-jwhite/10 transition-colors">EXPLORE PACKAGES</button>
+    </div>
+
+    <div class="flex flex-wrap gap-x-10 gap-y-3 text-sm text-jwhite/75 reveal">
+      <span><i class="fa-solid fa-car-side mr-2"></i>Private Jeep</span>
+      <span><i class="fa-solid fa-sun mr-2"></i>Sunrise Adventure</span>
+      <span><i class="fa-solid fa-mountain mr-2"></i>Local Experience</span>
+    </div>
+  </div>
+</section>
+
+<!-- ================= QUICK BOOKING BAR ================= -->
+<section class="relative z-20 -mt-24 px-4">
+  <div id="booking-bar" class="max-w-5xl mx-auto bg-jwhite border border-jlight shadow-xl p-6 lg:p-8">
+    <form id="quickBookForm" class="grid grid-cols-1 md:grid-cols-4 gap-5 items-end">
+      <div class="md:col-span-1">
+        <label class="block text-xs font-semibold tracking-wide text-jgrey mb-2">PACKAGE</label>
+        <select id="qbPackage" class="w-full border border-jlight bg-jlight/40 px-4 py-3 text-sm focus:bg-jwhite">
+          <option value="">Select package</option>
+        </select>
+      </div>
+      <div class="md:col-span-1">
+        <label class="block text-xs font-semibold tracking-wide text-jgrey mb-2">DATE</label>
+        <input id="qbDate" type="date" class="w-full border border-jlight bg-jlight/40 px-4 py-3 text-sm focus:bg-jwhite">
+      </div>
+      <div class="md:col-span-1">
+        <label class="block text-xs font-semibold tracking-wide text-jgrey mb-2">GUESTS</label>
+        <input id="qbGuests" type="number" min="1" value="2" class="w-full border border-jlight bg-jlight/40 px-4 py-3 text-sm focus:bg-jwhite">
+      </div>
+      <div class="md:col-span-1">
+        <button type="submit" class="w-full bg-jblack text-jwhite font-semibold text-sm tracking-wide px-6 py-3.5 hover:bg-jdark transition-colors">CHECK AVAILABILITY</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about" class="max-w-7xl mx-auto px-6 lg:px-10 pt-28 pb-24 grid lg:grid-cols-2 gap-14 items-center">
+  <div class="reveal">
+    <h2 class="font-display font-extrabold text-3xl lg:text-4xl tracking-tightest mb-6">YOUR JOURNEY STARTS HERE</h2>
+    <p class="text-jgrey leading-relaxed mb-5">
+      Jeep Batur Horizon takes you across the volcanic highlands of Kintamani, from the still-dark road up to Mount Batur's sunrise point to the hardened black lava fields shaped by the 1963 eruption. It is a way to meet this landscape without the two-hour hike, guided by drivers who grew up on this mountain.
+    </p>
+    <p class="text-jgrey leading-relaxed">
+      Every route is run in a private open-top 4WD Jeep, timed around the sunrise and paced by your group, not a fixed tour schedule.
+    </p>
+  </div>
+  <div class="grid grid-cols-2 gap-6 lg:gap-8 reveal">
+    <div class="border-l-2 border-jblack pl-5 py-2">
+      <div class="font-display font-extrabold text-4xl">1000+</div>
+      <div class="text-sm text-jgrey mt-1">Travelers</div>
+    </div>
+    <div class="border-l-2 border-jblack pl-5 py-2">
+      <div class="font-display font-extrabold text-4xl">5+</div>
+      <div class="text-sm text-jgrey mt-1">Adventure Routes</div>
+    </div>
+    <div class="border-l-2 border-jblack pl-5 py-2">
+      <div class="font-display font-extrabold text-4xl">24/7</div>
+      <div class="text-sm text-jgrey mt-1">WhatsApp Support</div>
+    </div>
+    <div class="border-l-2 border-jblack pl-5 py-2">
+      <div class="font-display font-extrabold text-4xl">Private</div>
+      <div class="text-sm text-jgrey mt-1">Jeep Experience</div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= PACKAGES ================= -->
+<section id="packages" class="bg-jlight py-28 px-6 lg:px-10">
+  <div class="max-w-7xl mx-auto">
+    <div class="max-w-2xl mb-14 reveal">
+      <h2 class="font-display font-extrabold text-3xl lg:text-4xl tracking-tightest mb-4">CHOOSE YOUR ADVENTURE</h2>
+      <p class="text-jgrey">Four ways to cover the mountain, from a straight sunrise run to the full day route.</p>
+    </div>
+    <div id="packagesGrid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-7"></div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience" class="max-w-7xl mx-auto px-6 lg:px-10 py-28">
+  <div class="max-w-2xl mb-14 reveal">
+    <h2 class="font-display font-extrabold text-3xl lg:text-4xl tracking-tightest mb-4">MORE THAN JUST A JEEP TOUR</h2>
+    <p class="text-jgrey">Eight things that make up a day on Mount Batur.</p>
+  </div>
+  <div id="experienceGrid" class="grid grid-cols-2 md:grid-cols-4 gap-px bg-jlight reveal"></div>
+</section>
+
+<!-- ================= CINEMATIC SECTION ================= -->
+<section class="relative h-[70vh] min-h-[420px] w-full overflow-hidden flex items-center justify-center">
+  <!-- REPLACE THIS IMAGE: cinematic section background -->
+  <div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image:url('https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?q=80&w=1920&auto=format&fit=crop');"></div>
+  <div class="absolute inset-0 bg-jblack/65"></div>
+  <div class="relative z-10 text-center text-jwhite px-6 reveal">
+    <h2 class="font-display font-extrabold text-3xl sm:text-5xl tracking-tightest mb-5">FEEL THE ADVENTURE</h2>
+    <p class="text-jwhite/80 mb-9 text-lg">One mountain. One Jeep. One unforgettable experience.</p>
+    <button onclick="document.getElementById('packages').scrollIntoView({behavior:'smooth'})" class="bg-jwhite text-jblack font-semibold text-sm tracking-wide px-8 py-4 hover:bg-jlight transition-colors">START YOUR JOURNEY</button>
+  </div>
+</section>
+
+<!-- ================= GALLERY ================= -->
+<section id="gallery" class="max-w-7xl mx-auto px-6 lg:px-10 py-28">
+  <div class="flex flex-wrap justify-between items-end gap-6 mb-10 reveal">
+    <div class="max-w-xl">
+      <h2 class="font-display font-extrabold text-3xl lg:text-4xl tracking-tightest mb-4">GALLERY</h2>
+      <p class="text-jgrey">A preview of the route. All photos here will be replaced with our own.</p>
+    </div>
+    <div id="galleryFilters" class="flex flex-wrap gap-2 text-xs font-semibold tracking-wide">
+      <button data-filter="all" class="filter-btn px-4 py-2 border border-jblack bg-jblack text-jwhite">ALL</button>
+      <button data-filter="jeep" class="filter-btn px-4 py-2 border border-jlight">JEEP</button>
+      <button data-filter="sunrise" class="filter-btn px-4 py-2 border border-jlight">SUNRISE</button>
+      <button data-filter="landscape" class="filter-btn px-4 py-2 border border-jlight">LANDSCAPE</button>
+      <button data-filter="adventure" class="filter-btn px-4 py-2 border border-jlight">ADVENTURE</button>
+      <button data-filter="travelers" class="filter-btn px-4 py-2 border border-jlight">TRAVELERS</button>
+    </div>
+  </div>
+  <div id="galleryGrid" class="grid grid-cols-2 md:grid-cols-3 gap-3"></div>
+</section>
+
+<!-- ================= WHY CHOOSE US ================= -->
+<section class="bg-jblack text-jwhite py-28 px-6 lg:px-10">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="font-display font-extrabold text-3xl lg:text-4xl tracking-tightest mb-14 max-w-xl reveal">WHY JEEP BATUR HORIZON?</h2>
+    <div id="whyGrid" class="grid sm:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-12"></div>
+  </div>
+</section>
+
+<!-- ================= ITINERARY ================= -->
+<section class="max-w-4xl mx-auto px-6 lg:px-10 py-28">
+  <h2 class="font-display font-extrabold text-3xl lg:text-4xl tracking-tightest mb-14 reveal">A TYPICAL MORNING</h2>
+  <div id="itineraryList" class="relative pl-10"></div>
+</section>
+
+<!-- ================= TESTIMONIALS ================= -->
+<section class="bg-jlight py-28 px-6 lg:px-10 overflow-hidden">
+  <div class="max-w-7xl mx-auto">
+    <div class="flex flex-wrap justify-between items-end gap-6 mb-14 reveal">
+      <h2 class="font-display font-extrabold text-3xl lg:text-4xl tracking-tightest">TRAVELERS STORIES</h2>
+      <div class="flex gap-3">
+        <button id="testimonialPrev" aria-label="Previous testimonial" class="w-11 h-11 border border-jblack flex items-center justify-center hover:bg-jblack hover:text-jwhite transition-colors"><i class="fa-solid fa-arrow-left"></i></button>
+        <button id="testimonialNext" aria-label="Next testimonial" class="w-11 h-11 border border-jblack flex items-center justify-center hover:bg-jblack hover:text-jwhite transition-colors"><i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+    <div class="overflow-hidden no-scrollbar">
+      <div id="testimonialTrack" class="flex gap-6"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FAQ ================= -->
+<section id="faq" class="max-w-4xl mx-auto px-6 lg:px-10 py-28">
+  <h2 class="font-display font-extrabold text-3xl lg:text-4xl tracking-tightest mb-14 reveal">FREQUENTLY ASKED QUESTIONS</h2>
+  <div id="faqList" class="divide-y divide-jlight border-t border-b border-jlight"></div>
+</section>
+
+<!-- ================= MAP ================= -->
+<section class="max-w-7xl mx-auto px-6 lg:px-10 pb-28">
+  <h2 class="font-display font-extrabold text-3xl lg:text-4xl tracking-tightest mb-10 reveal">FIND US</h2>
+  <div class="grid lg:grid-cols-3 gap-8">
+    <div class="lg:col-span-2 aspect-[16/9] border border-jlight reveal">
+      <!-- Google Maps placeholder embed, no API key required -->
+      <iframe class="w-full h-full grayscale-[40%]" loading="lazy" src="https://www.google.com/maps?q=Mount+Batur,Kintamani,Bali&output=embed" style="border:0;" allowfullscreen></iframe>
+    </div>
+    <div class="reveal">
+      <h3 class="font-display font-bold text-lg mb-3">Meeting Point</h3>
+      <p class="text-jgrey text-sm leading-relaxed mb-4">Jeep Batur Horizon Basecamp, Kintamani, Bangli Regency, Bali. Hotel pickup is available across most areas of Bali — final meeting point details are confirmed after booking via WhatsApp.</p>
+      <p class="text-jgrey text-sm">Mount Batur, Kintamani, Bali</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT CTA ================= -->
+<section id="contact" class="bg-jblack text-jwhite py-28 px-6 lg:px-10 text-center">
+  <div class="max-w-2xl mx-auto reveal">
+    <h2 class="font-display font-extrabold text-3xl sm:text-5xl tracking-tightest mb-5">READY FOR YOUR NEXT ADVENTURE?</h2>
+    <p class="text-jwhite/75 mb-10">Your Mount Batur adventure starts here.</p>
+    <div class="flex flex-wrap justify-center gap-4">
+      <a id="ctaWhatsapp" href="#" target="_blank" class="bg-jwhite text-jblack font-semibold text-sm tracking-wide px-8 py-4 hover:bg-jlight transition-colors">BOOK VIA WHATSAPP</a>
+      <a id="ctaInstagram" href="#" target="_blank" class="border border-jwhite/50 text-jwhite font-semibold text-sm tracking-wide px-8 py-4 hover:bg-jwhite/10 transition-colors">FOLLOW INSTAGRAM</a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-jblack text-jwhite/70 px-6 lg:px-10 pt-20 pb-10">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-12 mb-14">
+    <div>
+      <div class="font-display font-extrabold text-jwhite text-lg mb-3">JEEP BATUR HORIZON</div>
+      <p class="text-sm">Explore the Horizon of Mount Batur.</p>
+    </div>
+    <div>
+      <div class="text-jwhite text-sm font-semibold tracking-wide mb-4">MENU</div>
+      <ul class="space-y-2 text-sm">
+        <li><a href="#home" class="hover:text-jwhite">Home</a></li>
+        <li><a href="#packages" class="hover:text-jwhite">Packages</a></li>
+        <li><a href="#experience" class="hover:text-jwhite">Experience</a></li>
+        <li><a href="#gallery" class="hover:text-jwhite">Gallery</a></li>
+        <li><a href="#about" class="hover:text-jwhite">About</a></li>
+        <li><a href="#faq" class="hover:text-jwhite">FAQ</a></li>
+        <li><a href="#contact" class="hover:text-jwhite">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="text-jwhite text-sm font-semibold tracking-wide mb-4">SOCIAL</div>
+      <ul id="footerSocial" class="space-y-2 text-sm"></ul>
+    </div>
+  </div>
+  <div class="max-w-7xl mx-auto border-t border-jwhite/15 pt-6 text-xs flex flex-wrap justify-between gap-3">
+    <span>&copy; <span id="currentYear"></span> Jeep Batur Horizon. All Rights Reserved.</span>
+  </div>
+</footer>
+
+<!-- ================= FLOATING WHATSAPP ================= -->
+<a id="floatingWhatsapp" href="#" target="_blank" aria-label="Chat on WhatsApp"
+   class="pulse-btn fixed bottom-6 right-6 z-40 w-14 h-14 bg-jblack text-jwhite rounded-full flex items-center justify-center shadow-lg hover:bg-jdark transition-colors">
+  <i class="fa-brands fa-whatsapp text-2xl"></i>
+</a>
+
+<!-- ================= PACKAGE DETAIL MODAL ================= -->
+<div id="packageModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4">
+  <div class="modal-backdrop absolute inset-0" onclick="closePackageModal()"></div>
+  <div class="modal-panel relative bg-jwhite max-w-3xl w-full max-h-[90vh] overflow-y-auto">
+    <button onclick="closePackageModal()" aria-label="Close" class="absolute top-4 right-4 w-10 h-10 bg-jwhite border border-jlight flex items-center justify-center z-10"><i class="fa-solid fa-xmark"></i></button>
+    <div id="packageModalContent"></div>
+  </div>
+</div>
+
+<!-- ================= BOOKING MODAL ================= -->
+<div id="bookingModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4">
+  <div class="modal-backdrop absolute inset-0" onclick="closeBookingModal()"></div>
+  <div class="modal-panel relative bg-jwhite max-w-lg w-full max-h-[90vh] overflow-y-auto p-8">
+    <button onclick="closeBookingModal()" aria-label="Close" class="absolute top-4 right-4 w-10 h-10 flex items-center justify-center"><i class="fa-solid fa-xmark"></i></button>
+    <h3 class="font-display font-extrabold text-2xl tracking-tightest mb-1">BOOK YOUR JEEP</h3>
+    <p class="text-jgrey text-sm mb-7">Fill in your details, then continue to WhatsApp to confirm.</p>
+    <form id="bookingForm" class="space-y-4">
+      <div>
+        <label class="block text-xs font-semibold tracking-wide text-jgrey mb-2">NAME</label>
+        <input required id="bfName" type="text" class="w-full border border-jlight px-4 py-3 text-sm">
+      </div>
+      <div>
+        <label class="block text-xs font-semibold tracking-wide text-jgrey mb-2">PACKAGE</label>
+        <select id="bfPackage" class="w-full border border-jlight px-4 py-3 text-sm"></select>
+      </div>
+      <div class="grid grid-cols-2 gap-4">
+        <div>
+          <label class="block text-xs font-semibold tracking-wide text-jgrey mb-2">DATE</label>
+          <input required id="bfDate" type="date" class="w-full border border-jlight px-4 py-3 text-sm">
+        </div>
+        <div>
+          <label class="block text-xs font-semibold tracking-wide text-jgrey mb-2">GUESTS</label>
+          <input required id="bfGuests" type="number" min="1" value="2" class="w-full border border-jlight px-4 py-3 text-sm">
+        </div>
+      </div>
+      <div>
+        <label class="block text-xs font-semibold tracking-wide text-jgrey mb-2">PICKUP LOCATION</label>
+        <input required id="bfPickup" type="text" placeholder="Hotel name / area" class="w-full border border-jlight px-4 py-3 text-sm">
+      </div>
+      <div>
+        <label class="block text-xs font-semibold tracking-wide text-jgrey mb-2">WHATSAPP NUMBER</label>
+        <input required id="bfPhone" type="tel" placeholder="e.g. 0895418222441" class="w-full border border-jlight px-4 py-3 text-sm">
+      </div>
+      <div>
+        <label class="block text-xs font-semibold tracking-wide text-jgrey mb-2">SPECIAL REQUEST (OPTIONAL)</label>
+        <textarea id="bfNote" rows="3" class="w-full border border-jlight px-4 py-3 text-sm"></textarea>
+      </div>
+      <p id="bfError" class="text-sm text-red-600 hidden">Please fill in all required fields before continuing.</p>
+      <button type="submit" class="w-full bg-jblack text-jwhite font-semibold text-sm tracking-wide px-6 py-4 hover:bg-jdark transition-colors">CONTINUE TO WHATSAPP</button>
+    </form>
+  </div>
+</div>
+
+<!-- ================= LIGHTBOX ================= -->
+<div id="lightbox" class="fixed inset-0 z-50 hidden items-center justify-center p-4">
+  <div class="absolute inset-0 bg-jblack/90" onclick="closeLightbox()"></div>
+  <button onclick="closeLightbox()" aria-label="Close" class="absolute top-6 right-6 text-jwhite text-3xl z-10"><i class="fa-solid fa-xmark"></i></button>
+  <img id="lightboxImg" src="" alt="" class="relative z-10 max-h-[85vh] max-w-[92vw] object-contain">
+</div>
+
+<script>
+/* ============================================================
+   CONFIG — edit these to update contact links across the site
+   ============================================================ */
+const CONFIG = {
+  whatsappNumber: "6281234567890", // REPLACE WITH REAL NUMBER (no + or leading 0)
+  instagram: "https://instagram.com/jeepbaturhorizon",
+  tiktok: "https://tiktok.com/@jeepbaturhorizon",
+  facebook: "https://facebook.com/jeepbaturhorizon"
+};
+
+/* ============================================================
+   PACKAGE DATA — single source for cards, modal, and forms
+   ============================================================ */
+const PACKAGES = [
+  {
+    id: "sunrise-trail",
+    name: "Sunrise Trail",
+    // REPLACE THIS IMAGE: package card image
+    image: "https://images.unsplash.com/photo-1601581875039-e899893d520c?q=80&w=1000&auto=format&fit=crop",
+    description: "Catch first light over Lake Batur, then roll straight onto the black lava tracks.",
+    duration: "4 Hours",
+    time: "03:30 – 07:30",
+    capacity: "2–4 Guests",
+    price: "IDR 450,000",
+    priceUnit: "/ person",
+    meetingPoint: "Jeep Basecamp, Kintamani",
+    pickup: "Hotel pickup available in Ubud, Kintamani, and nearby areas.",
+    itinerary: ["03:30 Hotel pickup", "04:15 Arrive at basecamp", "05:15 Sunrise viewpoint", "06:15 Black lava fields", "07:30 Drop-off"],
+    included: ["Private 4WD Jeep", "Experienced driver", "Fuel & insurance", "Bottled water", "Photo stops"],
+    notIncluded: ["Kintamani entrance ticket", "Meals", "Personal expenses"],
+    terms: "Minimum 2 guests per booking. Free reschedule with 24-hour notice. Sunrise timing is weather-dependent."
+  },
+  {
+    id: "caldera-coffee",
+    name: "Caldera & Coffee",
+    image: "https://images.unsplash.com/photo-1560493676-04071c5f467b?q=80&w=1000&auto=format&fit=crop",
+    description: "Sunrise and black lava, extended with a stop at a Kintamani coffee plantation.",
+    duration: "6 Hours",
+    time: "03:00 – 09:00",
+    capacity: "2–4 Guests",
+    price: "IDR 650,000",
+    priceUnit: "/ person",
+    meetingPoint: "Jeep Basecamp, Kintamani",
+    pickup: "Hotel pickup available across Ubud, Sanur, and Kintamani area.",
+    itinerary: ["03:00 Hotel pickup", "04:00 Arrive at basecamp", "05:15 Sunrise viewpoint", "06:15 Black lava & black sand", "07:45 Coffee plantation", "09:00 Drop-off"],
+    included: ["Private 4WD Jeep", "Experienced driver", "Fuel & insurance", "Bottled water", "Coffee tasting"],
+    notIncluded: ["Kintamani entrance ticket", "Breakfast", "Personal expenses"],
+    terms: "Minimum 2 guests per booking. Free reschedule with 24-hour notice. Sunrise timing is weather-dependent."
+  },
+  {
+    id: "full-horizon",
+    name: "Full Horizon",
+    image: "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?q=80&w=1000&auto=format&fit=crop",
+    description: "The complete route — sunrise, black lava, hot spring, and coffee, at your own pace.",
+    duration: "8 Hours",
+    time: "02:30 – 10:30",
+    capacity: "2–4 Guests",
+    price: "IDR 850,000",
+    priceUnit: "/ person",
+    meetingPoint: "Jeep Basecamp, Kintamani",
+    pickup: "Hotel pickup available across most areas of Bali.",
+    itinerary: ["02:30 Hotel pickup", "03:30 Arrive at basecamp", "04:45 Sunrise viewpoint", "06:00 Black lava & black sand", "07:30 Coffee plantation", "08:30 Hot spring", "10:30 Drop-off"],
+    included: ["Private 4WD Jeep", "Experienced driver", "Fuel & insurance", "Bottled water", "Coffee tasting"],
+    notIncluded: ["Kintamani entrance ticket", "Hot spring entry ticket", "Meals", "Personal expenses"],
+    terms: "Minimum 2 guests per booking. Free reschedule with 24-hour notice. Sunrise timing is weather-dependent."
+  },
+  {
+    id: "sunset-ridge",
+    name: "Private Sunset Ridge",
+    image: "https://images.unsplash.com/photo-1478827387698-1527781a4887?q=80&w=1000&auto=format&fit=crop",
+    description: "Skip the early alarm — ride the ridge as the sky turns over Batur at dusk.",
+    duration: "3 Hours",
+    time: "16:00 – 19:00",
+    capacity: "2–4 Guests",
+    price: "IDR 500,000",
+    priceUnit: "/ person",
+    meetingPoint: "Jeep Basecamp, Kintamani",
+    pickup: "Hotel pickup available in Ubud, Kintamani, and nearby areas.",
+    itinerary: ["16:00 Hotel pickup", "17:00 Arrive at basecamp", "17:45 Ridge viewpoint at sunset", "18:30 Black lava fields", "19:00 Drop-off"],
+    included: ["Private 4WD Jeep", "Experienced driver", "Fuel & insurance", "Bottled water"],
+    notIncluded: ["Kintamani entrance ticket", "Meals", "Personal expenses"],
+    terms: "Minimum 2 guests per booking. Free reschedule with 24-hour notice. Views are weather-dependent."
+  }
+];
+
+const EXPERIENCES = [
+  { icon: "fa-solid fa-cloud-sun", label: "Sunrise", note: "First light over the caldera" },
+  { icon: "fa-solid fa-fire", label: "Black Lava", note: "1963 eruption fields" },
+  { icon: "fa-solid fa-water", label: "Black Sand", note: "Volcanic shoreline" },
+  { icon: "fa-solid fa-mountain", label: "Mount Batur", note: "1,717m active volcano" },
+  { icon: "fa-solid fa-mug-hot", label: "Coffee Plantation", note: "Local Kintamani coffee" },
+  { icon: "fa-solid fa-hot-tub-person", label: "Hot Spring", note: "Natural mineral pools" },
+  { icon: "fa-solid fa-car-side", label: "Offroad Adventure", note: "Rugged volcanic tracks" },
+  { icon: "fa-solid fa-binoculars", label: "Scenic View", note: "Lake Batur & Mount Agung" }
+];
+
+const WHY_US = [
+  { icon: "fa-solid fa-car-side", title: "Private Jeep", text: "Your group, your Jeep — no strangers sharing your ride." },
+  { icon: "fa-solid fa-id-badge", title: "Experienced Driver", text: "Local drivers who know the mountain and the timing." },
+  { icon: "fa-solid fa-map-location-dot", title: "Local Experience", text: "Routes shaped by people who grew up on this volcano." },
+  { icon: "fa-solid fa-comment-dots", title: "Easy Booking", text: "No accounts, no forms — just a WhatsApp message." },
+  { icon: "fa-solid fa-location-dot", title: "Flexible Pickup", text: "Hotel pickup across most areas of Bali." },
+  { icon: "fa-solid fa-shield-halved", title: "Safe Adventure", text: "Well-maintained 4WDs and insured drivers." },
+  { icon: "fa-solid fa-tag", title: "Transparent Price", text: "The price you see is the price you pay." },
+  { icon: "fa-brands fa-whatsapp", title: "WhatsApp Support", text: "Real answers, day or night." }
+];
+
+const ITINERARY = [
+  { time: "02:30 – 03:30", title: "Hotel Pickup", note: "Pickup across Bali, timed to reach the basecamp before sunrise." },
+  { time: "04:00", title: "Meeting Point", note: "Arrive at Jeep Basecamp, Kintamani, and switch to the 4WD." },
+  { time: "05:15", title: "Sunrise Mount Batur", note: "Reach the viewpoint as the sky turns over Lake Batur." },
+  { time: "06:15", title: "Black Lava & Black Sand", note: "Off-road through the 1963 eruption fields." },
+  { time: "07:30", title: "Coffee Plantation", note: "Short stop for local Kintamani coffee." },
+  { time: "08:30", title: "Optional Hot Spring", note: "Available on the Full Horizon package." },
+  { time: "09:30", title: "Return", note: "Drop-off back at your hotel." }
+];
+
+const GALLERY = [
+  { cat: "jeep", src: "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=800&auto=format&fit=crop" },
+  { cat: "sunrise", src: "https://images.unsplash.com/photo-1601581875039-e899893d520c?q=80&w=800&auto=format&fit=crop" },
+  { cat: "landscape", src: "https://images.unsplash.com/photo-1518002054494-3a6f94352e9d?q=80&w=800&auto=format&fit=crop" },
+  { cat: "adventure", src: "https://images.unsplash.com/photo-1478827387698-1527781a4887?q=80&w=800&auto=format&fit=crop" },
+  { cat: "travelers", src: "https://images.unsplash.com/photo-1521401830884-6c03c1c87ebb?q=80&w=800&auto=format&fit=crop" },
+  { cat: "jeep", src: "https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?q=80&w=800&auto=format&fit=crop" },
+  { cat: "landscape", src: "https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?q=80&w=800&auto=format&fit=crop" },
+  { cat: "sunrise", src: "https://images.unsplash.com/photo-1560493676-04071c5f467b?q=80&w=800&auto=format&fit=crop" },
+  { cat: "adventure", src: "https://images.unsplash.com/photo-1533130061792-64b345e4a833?q=80&w=800&auto=format&fit=crop" }
+]; // REPLACE THESE IMAGES: gallery placeholders, to be swapped with own photography
+
+const TESTIMONIALS = [
+  { name: "Laura M.", country: "Germany", rating: 5, review: "Our driver knew exactly which spot would be clear that morning. Watching the sunrise with almost no one else around was worth the early wake-up." },
+  { name: "Kenji T.", country: "Japan", rating: 5, review: "Booking was as simple as sending a WhatsApp message. The Jeep ride across the lava fields was rougher and more fun than I expected." },
+  { name: "Sophie R.", country: "Australia", rating: 4, review: "Great value for a private tour. The coffee stop was a nice touch after the sunrise. Would book again with family." },
+  { name: "Diego A.", country: "Spain", rating: 5, review: "Our driver was patient with our kids and stopped often for photos. Genuinely one of the best mornings of our trip." }
+];
+
+const FAQS = [
+  { q: "Is the Jeep private for my group only?", a: "Yes. Every Jeep is booked privately for your group — we don't mix guests from different bookings." },
+  { q: "How many people fit in one Jeep?", a: "Each Jeep comfortably seats 2–4 guests. Let us know your group size and we'll arrange enough vehicles." },
+  { q: "Is hotel pickup available?", a: "Yes, hotel pickup is available across most areas of Bali. A surcharge may apply for locations further from Kintamani." },
+  { q: "What time is pickup?", a: "Pickup time depends on your package and hotel location, and is confirmed after booking so you arrive in time for sunrise." },
+  { q: "Are entrance tickets included in the price?", a: "The Kintamani entrance ticket is not included and is paid on-site. Any optional stops such as hot springs are noted per package." },
+  { q: "Can I request a custom itinerary?", a: "Yes, message us on WhatsApp with what you'd like to add or skip and we'll see what's possible for your date." },
+  { q: "How do I make a booking?", a: "Choose a package, fill in the booking form, and continue to WhatsApp to confirm your date with our team." },
+  { q: "What happens if the weather is bad?", a: "Sunrise visibility depends on weather. If conditions are poor, our driver will suggest the best alternative route or timing." },
+  { q: "Are sunrise and sunset tours both available?", a: "Yes, we run both the Sunrise Trail packages and the Private Sunset Ridge tour." }
+];
+
+/* ============================================================
+   NAVBAR SCROLL EFFECT
+   ============================================================ */
+const navbar = document.getElementById('navbar');
+function handleNavbarScroll() {
+  if (window.scrollY > 40) navbar.classList.add('scrolled');
+  else navbar.classList.remove('scrolled');
+}
+window.addEventListener('scroll', handleNavbarScroll);
+handleNavbarScroll();
+
+/* ============================================================
+   HERO PARALLAX (lightweight)
+   ============================================================ */
+const heroBg = document.getElementById('hero-bg');
+let ticking = false;
+window.addEventListener('scroll', () => {
+  if (!ticking) {
+    window.requestAnimationFrame(() => {
+      const offset = Math.min(window.scrollY * 0.25, 160);
+      heroBg.style.transform = `translateY(${offset}px) scale(1.1)`;
+      ticking = false;
+    });
+    ticking = true;
+  }
+});
+
+/* ============================================================
+   MOBILE MENU
+   ============================================================ */
+const mobileMenu = document.getElementById('mobileMenu');
+const mobileOverlay = document.getElementById('mobileOverlay');
+function openMobileMenu() { mobileMenu.classList.add('open'); mobileOverlay.classList.add('open'); document.body.style.overflow = 'hidden'; }
+function closeMobileMenu() { mobileMenu.classList.remove('open'); mobileOverlay.classList.remove('open'); document.body.style.overflow = ''; }
+document.getElementById('hamburgerBtn').addEventListener('click', openMobileMenu);
+document.getElementById('closeMobileBtn').addEventListener('click', closeMobileMenu);
+mobileOverlay.addEventListener('click', closeMobileMenu);
+document.querySelectorAll('.mobile-link').forEach(link => link.addEventListener('click', closeMobileMenu));
+
+/* ============================================================
+   SMOOTH SCROLLING for internal anchors (native CSS covers most,
+   this keeps behavior consistent for older engines)
+   ============================================================ */
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    const id = this.getAttribute('href');
+    if (id.length > 1) {
+      const target = document.querySelector(id);
+      if (target) { e.preventDefault(); target.scrollIntoView({ behavior: 'smooth' }); }
+    }
+  });
+});
+
+/* ============================================================
+   RENDER: PACKAGE CARDS
+   ============================================================ */
+const packagesGrid = document.getElementById('packagesGrid');
+PACKAGES.forEach(pkg => {
+  const card = document.createElement('div');
+  card.className = "pkg-card bg-jwhite border border-jlight overflow-hidden";
+  card.innerHTML = `
+    <div class="overflow-hidden h-48">
+      <img src="${pkg.image}" alt="${pkg.name}" loading="lazy" class="pkg-img w-full h-full object-cover">
+    </div>
+    <div class="p-6">
+      <h3 class="font-display font-bold text-lg mb-2">${pkg.name}</h3>
+      <p class="text-sm text-jgrey mb-4 leading-relaxed">${pkg.description}</p>
+      <div class="flex flex-wrap gap-x-4 gap-y-1 text-xs text-jgrey mb-4">
+        <span><i class="fa-regular fa-clock mr-1"></i>${pkg.duration}</span>
+        <span><i class="fa-solid fa-users mr-1"></i>${pkg.capacity}</span>
+      </div>
+      <div class="font-display font-extrabold text-xl mb-5">${pkg.price} <span class="text-xs font-normal text-jgrey">${pkg.priceUnit}</span></div>
+      <div class="flex flex-col gap-2">
+        <button onclick="openPackageModal('${pkg.id}')" class="w-full border border-jblack text-jblack text-sm font-semibold py-2.5 hover:bg-jblack hover:text-jwhite transition-colors">VIEW DETAILS</button>
+        <button onclick="openBookingModal('${pkg.id}')" class="w-full bg-jblack text-jwhite text-sm font-semibold py-2.5 hover:bg-jdark transition-colors">BOOK VIA WHATSAPP</button>
+      </div>
+    </div>`;
+  packagesGrid.appendChild(card);
+});
+
+// populate package selects (quick booking bar + booking form)
+[document.getElementById('qbPackage'), document.getElementById('bfPackage')].forEach(select => {
+  PACKAGES.forEach(pkg => {
+    const opt = document.createElement('option');
+    opt.value = pkg.id;
+    opt.textContent = `${pkg.name} — ${pkg.price}${pkg.priceUnit}`;
+    select.appendChild(opt);
+  });
+});
+
+/* ============================================================
+   RENDER: EXPERIENCE GRID
+   ============================================================ */
+const experienceGrid = document.getElementById('experienceGrid');
+EXPERIENCES.forEach(exp => {
+  const el = document.createElement('div');
+  el.className = "bg-jwhite p-7 flex flex-col gap-3";
+  el.innerHTML = `
+    <i class="${exp.icon} text-2xl"></i>
+    <div class="font-display font-bold">${exp.label}</div>
+    <div class="text-xs text-jgrey">${exp.note}</div>`;
+  experienceGrid.appendChild(el);
+});
+
+/* ============================================================
+   RENDER: WHY CHOOSE US
+   ============================================================ */
+const whyGrid = document.getElementById('whyGrid');
+WHY_US.forEach(item => {
+  const el = document.createElement('div');
+  el.className = "reveal";
+  el.innerHTML = `
+    <i class="${item.icon} text-2xl mb-4 block"></i>
+    <h3 class="font-display font-bold mb-2">${item.title}</h3>
+    <p class="text-sm text-jwhite/60 leading-relaxed">${item.text}</p>`;
+  whyGrid.appendChild(el);
+});
+
+/* ============================================================
+   RENDER: ITINERARY TIMELINE
+   ============================================================ */
+const itineraryList = document.getElementById('itineraryList');
+itineraryList.innerHTML = `<div class="timeline-line absolute left-[7px] top-2 bottom-2 w-px"></div>`;
+ITINERARY.forEach(step => {
+  const el = document.createElement('div');
+  el.className = "relative pb-12 last:pb-0 reveal";
+  el.innerHTML = `
+    <span class="absolute -left-10 top-1 w-4 h-4 rounded-full bg-jblack border-4 border-jwhite ring-1 ring-jblack"></span>
+    <div class="text-xs font-semibold tracking-wide text-jgrey mb-1">${step.time}</div>
+    <h3 class="font-display font-bold text-lg mb-1">${step.title}</h3>
+    <p class="text-sm text-jgrey">${step.note}</p>`;
+  itineraryList.appendChild(el);
+});
+
+/* ============================================================
+   RENDER: GALLERY + FILTER + LIGHTBOX
+   ============================================================ */
+const galleryGrid = document.getElementById('galleryGrid');
+function renderGallery() {
+  galleryGrid.innerHTML = '';
+  GALLERY.forEach((item, i) => {
+    const el = document.createElement('div');
+    el.className = "gallery-item overflow-hidden cursor-pointer aspect-square";
+    el.dataset.cat = item.cat;
+    el.innerHTML = `<img src="${item.src}" alt="Jeep Batur Horizon gallery" loading="lazy" class="w-full h-full object-cover" onclick="openLightbox('${item.src}')">`;
+    galleryGrid.appendChild(el);
+  });
+}
+renderGallery();
+
+document.querySelectorAll('.filter-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('bg-jblack', 'text-jwhite', 'border-jblack'));
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.add('border-jlight'));
+    btn.classList.add('bg-jblack', 'text-jwhite', 'border-jblack');
+    btn.classList.remove('border-jlight');
+    const filter = btn.dataset.filter;
+    document.querySelectorAll('.gallery-item').forEach(item => {
+      if (filter === 'all' || item.dataset.cat === filter) item.classList.remove('gallery-hidden');
+      else item.classList.add('gallery-hidden');
+    });
+  });
+});
+
+function openLightbox(src) {
+  document.getElementById('lightboxImg').src = src;
+  const lb = document.getElementById('lightbox');
+  lb.classList.remove('hidden'); lb.classList.add('flex');
+  document.body.style.overflow = 'hidden';
+}
+function closeLightbox() {
+  const lb = document.getElementById('lightbox');
+  lb.classList.add('hidden'); lb.classList.remove('flex');
+  document.body.style.overflow = '';
+}
+
+/* ============================================================
+   RENDER: TESTIMONIALS (simple vanilla carousel)
+   ============================================================ */
+const testimonialTrack = document.getElementById('testimonialTrack');
+TESTIMONIALS.forEach(t => {
+  const stars = Array.from({length:5}, (_, i) => `<i class="fa-solid fa-star ${i < t.rating ? '' : 'opacity-20'} text-xs"></i>`).join('');
+  const card = document.createElement('div');
+  card.className = "min-w-[280px] sm:min-w-[340px] bg-jwhite border border-jlight p-7 flex-shrink-0";
+  card.innerHTML = `
+    <div class="flex items-center gap-3 mb-4">
+      <div class="w-10 h-10 rounded-full bg-jblack text-jwhite flex items-center justify-center font-display font-bold text-sm">${t.name.charAt(0)}</div>
+      <div>
+        <div class="font-semibold text-sm">${t.name}</div>
+        <div class="text-xs text-jgrey">${t.country}</div>
+      </div>
+    </div>
+    <div class="mb-3 text-jblack">${stars}</div>
+    <p class="text-sm text-jgrey leading-relaxed">${t.review}</p>`;
+  testimonialTrack.appendChild(card);
+});
+let testimonialIndex = 0;
+function scrollTestimonials(dir) {
+  const cardWidth = testimonialTrack.firstElementChild.offsetWidth + 24;
+  const maxIndex = TESTIMONIALS.length - 1;
+  testimonialIndex = Math.max(0, Math.min(maxIndex, testimonialIndex + dir));
+  testimonialTrack.style.transform = `translateX(-${testimonialIndex * cardWidth}px)`;
+}
+document.getElementById('testimonialNext').addEventListener('click', () => scrollTestimonials(1));
+document.getElementById('testimonialPrev').addEventListener('click', () => scrollTestimonials(-1));
+
+/* ============================================================
+   RENDER: FAQ ACCORDION
+   ============================================================ */
+const faqList = document.getElementById('faqList');
+FAQS.forEach((item, i) => {
+  const wrap = document.createElement('div');
+  wrap.className = "py-2";
+  wrap.innerHTML = `
+    <button class="faq-toggle w-full flex items-center justify-between text-left py-5 gap-4">
+      <span class="font-display font-semibold">${item.q}</span>
+      <i class="fa-solid fa-plus faq-icon transition-transform"></i>
+    </button>
+    <div class="faq-panel">
+      <p class="text-sm text-jgrey pb-5 pr-8 leading-relaxed">${item.a}</p>
+    </div>`;
+  faqList.appendChild(wrap);
+});
+document.querySelectorAll('.faq-toggle').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const panel = btn.nextElementSibling;
+    const icon = btn.querySelector('.faq-icon');
+    const isOpen = panel.style.maxHeight && panel.style.maxHeight !== '0px';
+    document.querySelectorAll('.faq-panel').forEach(p => p.style.maxHeight = '0px');
+    document.querySelectorAll('.faq-icon').forEach(ic => ic.style.transform = 'rotate(0deg)');
+    if (!isOpen) { panel.style.maxHeight = panel.scrollHeight + 'px'; icon.style.transform = 'rotate(45deg)'; }
+  });
+});
+
+/* ============================================================
+   PACKAGE DETAIL MODAL
+   ============================================================ */
+function openPackageModal(id) {
+  const pkg = PACKAGES.find(p => p.id === id);
+  if (!pkg) return;
+  document.getElementById('packageModalContent').innerHTML = `
+    <img src="${pkg.image}" alt="${pkg.name}" class="w-full h-64 object-cover">
+    <div class="p-8">
+      <h3 class="font-display font-extrabold text-2xl mb-2">${pkg.name}</h3>
+      <div class="font-display font-extrabold text-xl mb-5">${pkg.price} <span class="text-xs font-normal text-jgrey">${pkg.priceUnit}</span></div>
+      <div class="grid sm:grid-cols-3 gap-4 text-sm mb-6 border-y border-jlight py-5">
+        <div><div class="text-xs text-jgrey mb-1">DURATION</div><div class="font-semibold">${pkg.duration}</div></div>
+        <div><div class="text-xs text-jgrey mb-1">TIME</div><div class="font-semibold">${pkg.time}</div></div>
+        <div><div class="text-xs text-jgrey mb-1">CAPACITY</div><div class="font-semibold">${pkg.capacity}</div></div>
+      </div>
+      <div class="mb-6">
+        <div class="text-xs font-semibold tracking-wide text-jgrey mb-2">MEETING POINT</div>
+        <p class="text-sm">${pkg.meetingPoint}</p>
+        <div class="text-xs font-semibold tracking-wide text-jgrey mt-4 mb-2">PICKUP</div>
+        <p class="text-sm">${pkg.pickup}</p>
+      </div>
+      <div class="mb-6">
+        <div class="text-xs font-semibold tracking-wide text-jgrey mb-3">ITINERARY</div>
+        <ul class="space-y-2 text-sm">
+          ${pkg.itinerary.map(i => `<li class="flex gap-3"><i class="fa-solid fa-check text-xs mt-1"></i>${i}</li>`).join('')}
+        </ul>
+      </div>
+      <div class="grid sm:grid-cols-2 gap-6 mb-6">
+        <div>
+          <div class="text-xs font-semibold tracking-wide text-jgrey mb-3">INCLUDED</div>
+          <ul class="space-y-2 text-sm">${pkg.included.map(i => `<li class="flex gap-2"><i class="fa-solid fa-check text-xs mt-1"></i>${i}</li>`).join('')}</ul>
+        </div>
+        <div>
+          <div class="text-xs font-semibold tracking-wide text-jgrey mb-3">NOT INCLUDED</div>
+          <ul class="space-y-2 text-sm">${pkg.notIncluded.map(i => `<li class="flex gap-2"><i class="fa-solid fa-xmark text-xs mt-1"></i>${i}</li>`).join('')}</ul>
+        </div>
+      </div>
+      <p class="text-xs text-jgrey mb-7">${pkg.terms}</p>
+      <button onclick="closePackageModal(); openBookingModal('${pkg.id}')" class="w-full bg-jblack text-jwhite font-semibold text-sm tracking-wide py-4 hover:bg-jdark transition-colors">BOOK THIS PACKAGE</button>
+    </div>`;
+  const modal = document.getElementById('packageModal');
+  modal.classList.remove('hidden'); modal.classList.add('flex');
+  document.body.style.overflow = 'hidden';
+}
+function closePackageModal() {
+  const modal = document.getElementById('packageModal');
+  modal.classList.add('hidden'); modal.classList.remove('flex');
+  document.body.style.overflow = '';
+}
+
+/* ============================================================
+   BOOKING MODAL + WHATSAPP MESSAGE GENERATOR
+   ============================================================ */
+function openBookingModal(preselectId) {
+  if (preselectId) document.getElementById('bfPackage').value = preselectId;
+  const modal = document.getElementById('bookingModal');
+  modal.classList.remove('hidden'); modal.classList.add('flex');
+  document.body.style.overflow = 'hidden';
+}
+function closeBookingModal() {
+  const modal = document.getElementById('bookingModal');
+  modal.classList.add('hidden'); modal.classList.remove('flex');
+  document.body.style.overflow = '';
+}
+
+document.getElementById('bookingForm').addEventListener('submit', function (e) {
+  e.preventDefault();
+  const name = document.getElementById('bfName').value.trim();
+  const packageId = document.getElementById('bfPackage').value;
+  const date = document.getElementById('bfDate').value;
+  const guests = document.getElementById('bfGuests').value;
+  const pickup = document.getElementById('bfPickup').value.trim();
+  const phone = document.getElementById('bfPhone').value.trim();
+  const note = document.getElementById('bfNote').value.trim();
+  const errorEl = document.getElementById('bfError');
+
+  if (!name || !packageId || !date || !guests || !pickup || !phone) {
+    errorEl.classList.remove('hidden');
+    return;
+  }
+  errorEl.classList.add('hidden');
+
+  const pkg = PACKAGES.find(p => p.id === packageId);
+  const formattedDate = new Date(date + 'T00:00:00').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+
+  const message =
+`Hello Jeep Batur Horizon,
+
+I would like to book a Jeep Tour.
+
+Package: ${pkg ? pkg.name : packageId}
+Date: ${formattedDate}
+Guests: ${guests}
+Name: ${name}
+Pickup Location: ${pickup}
+WhatsApp: ${phone}
+
+Special Request:
+${note || '-'}
+
+Please confirm availability and booking details. Thank you.`;
+
+  window.open(`https://wa.me/${CONFIG.whatsappNumber}?text=${encodeURIComponent(message)}`, '_blank');
+});
+
+/* Quick booking bar -> scrolls to packages, prefilling selection where possible */
+document.getElementById('quickBookForm').addEventListener('submit', function (e) {
+  e.preventDefault();
+  const packageId = document.getElementById('qbPackage').value;
+  if (packageId) {
+    document.getElementById('bfPackage').value = packageId;
+    document.getElementById('bfDate').value = document.getElementById('qbDate').value;
+    document.getElementById('bfGuests').value = document.getElementById('qbGuests').value;
+    openBookingModal(packageId);
+  } else {
+    document.getElementById('packages').scrollIntoView({ behavior: 'smooth' });
+  }
+});
+
+/* ============================================================
+   SOCIAL / WHATSAPP LINKS FROM CONFIG
+   ============================================================ */
+function waLink(text) {
+  return `https://wa.me/${CONFIG.whatsappNumber}${text ? '?text=' + encodeURIComponent(text) : ''}`;
+}
+document.getElementById('floatingWhatsapp').href = waLink("Hello Jeep Batur Horizon, I have a question about a Jeep Tour.");
+document.getElementById('ctaWhatsapp').href = waLink("Hello Jeep Batur Horizon, I would like to book a Jeep Tour.");
+document.getElementById('ctaInstagram').href = CONFIG.instagram;
+document.getElementById('bookNowNavBtn').addEventListener('click', () => openBookingModal());
+document.getElementById('bookNowMobileBtn').addEventListener('click', () => { closeMobileMenu(); openBookingModal(); });
+
+const footerSocial = document.getElementById('footerSocial');
+[
+  { label: 'WhatsApp', href: waLink() },
+  { label: 'Instagram', href: CONFIG.instagram },
+  { label: 'TikTok', href: CONFIG.tiktok },
+  { label: 'Facebook', href: CONFIG.facebook }
+].forEach(s => {
+  const li = document.createElement('li');
+  li.innerHTML = `<a href="${s.href}" target="_blank" class="hover:text-jwhite">${s.label}</a>`;
+  footerSocial.appendChild(li);
+});
+
+/* ============================================================
+   CURRENT YEAR
+   ============================================================ */
+document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+/* ============================================================
+   SCROLL REVEAL ANIMATION (IntersectionObserver)
+   ============================================================ */
+const revealObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('in-view');
+      revealObserver.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.15 });
+document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+/* Close modals with Escape key */
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') { closePackageModal(); closeBookingModal(); closeLightbox(); closeMobileMenu(); }
+});
+</script>
+</body>
+</html>
